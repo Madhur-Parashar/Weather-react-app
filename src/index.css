@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #333333;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.par{
+  font-size: 25px;
+  
+}
+.cen{padding: 25px;
+  text-align: center;
+}
+
+.content-center {
+  margin: 2rem auto;
+}
+
+/* Rotate Signal Status Icon */
+.fa-repeat {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+.humidity{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+#weather-status{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+
+}
+
+input, textarea {
+  background-color : #d1d1d1;
+}
+.signal-status {
+  font-size: 0.5rem;
+}
+
+.signal-status:before {
+  font-size: 1rem;
+}
+
+.red-state {
+  color: #f44336;
+}
+
+.amber-state {
+  color: #ffc107;
+}
+
+.green-state {
+  color: #4caf50;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Left Section Display */
+#temperature {
+  margin: -1rem 0;
+}
+
+#deg {
+  position: absolute;
+}
+
+/* Right Section Display */
+.day-symbol:before {
+  font-size: 10rem;
+}
+
+.fa-sun-o {
+  color: #ffeb3b;
+}
+
+.fa-cloud {
+  color: #607d8b;
+}
+
+.fa-tint {
+  color: #03a9f4;
+}
+
+.fa-leaf {
+  color: #8bc34a;
+}
+
+/* Lower Section Display */
+hr {
+  background: #607d8b;
+}
+
+/* temp color styling */
+
+.freezing {
+  color: #00bcd4;
+}
+
+.cold {
+  color: #2196f3;
+}
+
+.cool {
+  color: #9e9e9e;
+}
+
+.warm {
+  color: #4caf50;
+}
+
+.hot {
+  color: #ffeb3b;
+}
+
+.scorching {
+  color: #ff9800;
+}
+
+.Cloudy {
+  background-image: url("images/Cloudy.jpg");
+  height: 272px;
+  background-repeat: no-repeat;
+
+}
+
+.Clear{
+  background-image: url("images/Sunny.jpg");
+  height: 272px;
+  background-repeat: no-repeat;
+}
+
+
+.Partly{
+  background-image: url("images/Partly Cloudy.jpg");
+  height: 272px;
+  background-repeat: no-repeat;
+}
